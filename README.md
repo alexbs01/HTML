@@ -1,5 +1,22 @@
 # HTML
 
+## Índice
+
+- [Que es HTML](#Que es HTML)  
+	- [Estructura básica de HTML](#Estructura básica de HTML)  
+- [Que es HTML5](#Que es HTML5)  
+	- [Estructura básica de HTML5](#Estructura básica de HTML5)  
+- [Etiqueta HEAD](#Etiqueta HEAD)  
+- [Etiqueta BODY ](#Etiqueta BODY)  
+	- [Etiquetas del interior de BODY](#Etiquetas del interior de BODY)  
+		- [Etiquetas de texto y sus atributos](#Etiquetas de texto y sus atributos)  
+		- [Las listas y sus atributos](#Las listas y sus atributos)  
+		- [Las tablas y sus atributos](#Las tablas y sus atributos)  
+		- [Los archivos multimedia y sus atributos](#Los archivos multimedia y sus atributos)  
+		- [Los formularios y sus atributos](#Los formularios y sus atributos)  
+			- [Nuevos elementos de los formularios en HTML5](#Nuevos elementos de los formularios en HTML5)  
+		- [La división por secciones en HTML5](#La división por secciones en HTML5)  
+	
 ## Que es HTML
 
 HTML son las siglas en inglés de HyperText Markup Language, que en castellano significa Lenguaje de Marcas de HipertTexto. Se usa para crear el cuerpo de una pagina web y como su propio nombre indica es un lenguaje de marcas, que para codificar un documento incorpora etiquetas de apertura y cierre, o que se cierran en la misma etiqueta de apertura.  
@@ -184,7 +201,7 @@ Las tablas están constituidas por filas y columnas, en las que si no indicamos 
 	
 También se pueden agrupar las distintas filas de una tabla con las etiquetas ```<thead>...</thead>``` para la cabecera de la tabla, ```<tbody>...</tbody>``` para lo que es el cuerpo de la tabla y ```<tfoot>...</tfoot>``` para el pie de la tabla. A estas tres posibles agrupaciones se le pueden aplicar todas las modificaciones de los *align*, los *valign*, los *bgcolor* y el *height*, es decir, todos los atributos pertenecientes a las tuplas de la etiqueta TR.  
 
-#### Los archivos multimedia
+#### Los archivos multimedia y sus atributos
 
 - **Las imágenes**: Entre todos los recursos multimedia, las imágenes son las más usadas y se ponen con la etiqueta ```<img />```.  
 
@@ -207,7 +224,7 @@ También se pueden agrupar las distintas filas de una tabla con las etiquetas ``
 	**coords="C"**: En este atributo se difinen las coordenadas X e Y de cada punto. Para *rect* se marca una esquina y su opuesta (por ejemplo, la superior derecha y la inferior izquierda), para *poly* se marcan todas las esquinas del polígono yendo por orden, y para *circle* se marca el centro y el radio del círculo.  
 	**href="H"**: Establece la dirección del enlace a la que llevará esa sección del mapeado.  
 	
-#### Los formularios
+#### Los formularios y sus atributos
 
 Son las casillas, botones, cajas de texto... Todo aquello que se utiliza para recoger información del usuario y posteriormente enviarlo al servidor.  
 
@@ -474,7 +491,21 @@ En la versión de HTML5 se añadieron nuevos tipos de formularios para la etique
 <!-- Un input para comida con la letra A -->
 ```
 
+#### La división por secciones en HTML5
 
+Permiten dividir por secciones el código de la página html para hacerlo más fácil de editar y construir. Esta división se divide entre las etiquetas:  
+
+- ```<header>...</header>``` para crear una cabecera al inicio de la página.  
+- ```<nav>...</nav>``` para tener una selección de links a modo de menú debajo de la cabecera.  
+- ```<section>...</section>``` para dividir la página por secciones para ayudar a ordenar la página como por columnas o noticias.  
+- ```<aside>...</aside>``` con la función de tener una barra lateral con la utilidad de almacenar con tener un menú de acceso rápido, publicidad o información relevante para el usuarion.  
+- ```<footer>...</footer>``` para tener un pie de página y dedicar el ese espacio a alguna cita, algún link o información adicional.  
+- ```<article>...</article>``` normalmente utilizado para ayudar a dividir noticias en distintos articulos, cada uno con su titulo y su información.  
+- ```<figure>...</figure>``` para dividir una sección que contiene imágenes o vídeos.  
+- ```<figcaption>...</figcaption>``` para añadir un pequeño texto descriptivo a los recursos que son contenidos por **figure**.  
+
+Aquí dejo un ejemplo:  
+![Ejemplo estructura HTML5](./img/HTML5_structure.png)
 
 
 
