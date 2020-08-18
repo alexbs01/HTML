@@ -2,20 +2,20 @@
 
 ## Índice
 
-- [Que es HTML](#Que es HTML)  
-	- [Estructura básica de HTML](#Estructura básica de HTML)  
-- [Que es HTML5](#Que es HTML5)  
-	- [Estructura básica de HTML5](#Estructura básica de HTML5)  
-- [Etiqueta HEAD](#Etiqueta HEAD)  
-- [Etiqueta BODY ](#Etiqueta BODY)  
-	- [Etiquetas del interior de BODY](#Etiquetas del interior de BODY)  
-		- [Etiquetas de texto y sus atributos](#Etiquetas de texto y sus atributos)  
-		- [Las listas y sus atributos](#Las listas y sus atributos)  
-		- [Las tablas y sus atributos](#Las tablas y sus atributos)  
-		- [Los archivos multimedia y sus atributos](#Los archivos multimedia y sus atributos)  
-		- [Los formularios y sus atributos](#Los formularios y sus atributos)  
-			- [Nuevos elementos de los formularios en HTML5](#Nuevos elementos de los formularios en HTML5)  
-		- [La división por secciones en HTML5](#La división por secciones en HTML5)  
+- [Que es HTML](#Que-es-HTML)  
+	- [Estructura básica de HTML](#Estructura-básica-de-HTML)  
+- [Que es HTML5](#Que-es-HTML5)  
+	- [Estructura básica de HTML5](#Estructura-básica-de-HTML5)  
+- [Etiqueta HEAD](#Etiqueta-HEAD)  
+- [Etiqueta BODY ](#Etiqueta-BODY)  
+	- [Etiquetas del interior de BODY](#Etiquetas-del-interior-de-BODY)  
+		- [Etiquetas de texto y sus atributos](#Etiquetas-de-texto-y-sus-atributos)  
+		- [Las listas y sus atributos](#Las-listas-y-sus-atributos)  
+		- [Las tablas y sus atributos](#Las-tablas-y-sus-atributos)  
+		- [Los archivos multimedia y sus atributos](#Los-archivos-multimedia-y-sus-atributos)  
+		- [Los formularios y sus atributos](#Los-formularios-y-sus-atributos)  
+			- [Nuevos elementos de los formularios en HTML5](#Nuevos-elementos-de-los-formularios-en-HTML5)  
+		- [La división por secciones en HTML5](#La-división-por-secciones-en-HTML5)  
 	
 ## Que es HTML
 
